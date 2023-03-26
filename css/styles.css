@@ -278,6 +278,7 @@ textarea {
 .mobile-menu-social-media-list {
   display: flex;
   gap: 56px;
+  flex-wrap: wrap;
 }
 
 /* nav section */
@@ -905,8 +906,10 @@ textarea {
 }
 
 .list.examples {
+  display: flex;
   margin-bottom: 72px;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 .filter-btn {

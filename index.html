@@ -182,13 +182,22 @@
           <h2 class="section-title">Our Team</h2>
           <ul class="list employees">
             <li class="employees-card">
-              <img
-                class="team-member"
-                src="./images/team/team_card_1.jpg"
-                alt="Mark_Guerrero"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team-guerrero.jpg    1x,
+                    ./images/team/team-guerrero@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="team-member"
+                  src="./images/team/team-guerrero.jpg"
+                  alt="Mark_Guerrero"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div>
                 <h3 class="section-subtitle name">Mark Guerrero</h3>
                 <p>Product Designer</p>
@@ -202,7 +211,8 @@
                       ><svg class="social-media-item" width="16" height="16">
                         <use
                           href="./images/icons.svg#icon-instagram"
-                        ></use></svg></a>
+                        ></use></svg
+                    ></a>
                   </li>
                   <li class="social-media-icon">
                     <a
@@ -211,7 +221,8 @@
                       rel="noopener noreferrer"
                       target="_blank"
                       ><svg class="social-media-item" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg></a>
+                        <use href="./images/icons.svg#icon-twitter"></use></svg
+                    ></a>
                   </li>
                   <li class="social-media-icon">
                     <a
@@ -237,13 +248,22 @@
               </div>
             </li>
             <li class="employees-card">
-              <img
-                class="team-member"
-                src="./images/team/team_card_2.jpg"
-                alt="Tom_Ford"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team-ford.jpg    1x,
+                    ./images/team/team-ford@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="team-member"
+                  src="./images/team/team-ford.jpg"
+                  alt="Tom Ford"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div>
                 <h3 class="section-subtitle name">Tom Ford</h3>
                 <p>Frontend Developer</p>
@@ -294,13 +314,22 @@
               </div>
             </li>
             <li class="employees-card">
-              <img
-                class="team-member"
-                src="./images/team/team_card_3.jpg"
-                alt="Camila_Garcia"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team-garsia.jpg    1x,
+                    ./images/team/team-garsia@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="team-member"
+                  src="./images/team/team-garsia.jpg"
+                  alt="Camila Garcia"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div>
                 <h3 class="section-subtitle name">Camila Garcia</h3>
                 <p>Marketing</p>
@@ -351,13 +380,22 @@
               </div>
             </li>
             <li class="employees-card">
-              <img
-                class="team-member"
-                src="./images/team/team_card_4.jpg"
-                alt="Daniel_Wilson"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team-wilson.jpg    1x,
+                    ./images/team/team-wilson@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="team-member"
+                  src="./images/team/team-wilson.jpg"
+                  alt="Daniel Wilson"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <div>
                 <h3 class="section-subtitle name">Daniel Wilson</h3>
                 <p>UI Designer</p>
@@ -493,59 +531,63 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container footer-content">
-        <div class="footer-cont-1">
-          <a class="footer-logo" href="./index.html"
-            ><span class="logo-web">Web</span>Studio</a
-          >
-          <p class="footer-description">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="footer-social-media">
-          <p class="footer-subtitle">Social media</p>
-          <ul class="list footer-social-media-list">
-            <li class="footer-social-media-icon">
-              <a
-                href="#"
-                class="social-media-link footer-social-media-link"
-                rel="noopener noreferrer"
-                target="_blank"
-                ><svg class="footer-social-media-item" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use></svg
-              ></a>
-            </li>
-            <li class="footer-social-media-icon">
-              <a
-                href="#"
-                class="social-media-link footer-social-media-link"
-                rel="noopener noreferrer"
-                target="_blank">
-                <svg class="footer-social-media-item" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use></svg>
+        <div class="footer-content-2">
+          <div class="footer-cont-1">
+            <a class="footer-logo" href="./index.html"
+              ><span class="logo-web">Web</span>Studio</a
+            >
+            <p class="footer-description">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-social-media">
+            <p class="footer-subtitle">Social media</p>
+            <ul class="list footer-social-media-list">
+              <li class="footer-social-media-icon">
+                <a
+                  href="#"
+                  class="social-media-link footer-social-media-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  ><svg class="footer-social-media-item" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="footer-social-media-icon">
+                <a
+                  href="#"
+                  class="social-media-link footer-social-media-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg class="footer-social-media-item" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
                 </a>
-            </li>
-            <li class="footer-social-media-icon">
-              <a
-                href="#"
-                class="social-media-link footer-social-media-link"
-                rel="noopener noreferrer"
-                target="_blank"
-                ><svg class="footer-social-media-item" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use></svg
-              ></a>
-            </li>
-            <li class="footer-social-media-icon">
-              <a
-                href="#"
-                class="social-media-link footer-social-media-link"
-                rel="noopener noreferrer"
-                target="_blank"
-                ><svg class="footer-social-media-item" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use></svg
-              ></a>
-            </li>
-          </ul>
+              </li>
+              <li class="footer-social-media-icon">
+                <a
+                  href="#"
+                  class="social-media-link footer-social-media-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  ><svg class="footer-social-media-item" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="footer-social-media-icon">
+                <a
+                  href="#"
+                  class="social-media-link footer-social-media-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  ><svg class="footer-social-media-item" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="footer-subscribe-wrapper">
           <p class="footer-subscribe-title">Subscribe</p>
@@ -638,7 +680,7 @@
         </form>
       </div>
     </div>
-    
+
     <div class="modal-mobile-menu js-menu-container">
       <button type="button" class="modal-mobile-close-btn js-close-menu">
         <svg class="close-btn-icon" width="8" height="8">
@@ -647,7 +689,9 @@
       </button>
       <ul class="mobile-menu-links-list">
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link link activ-link" href="./index.html">Studio</a>
+          <a class="mobile-menu-link link activ-link" href="./index.html"
+            >Studio</a
+          >
         </li>
         <li class="mobile-menu-item">
           <a class="mobile-menu-link link" href="./portfolio.html">Portfolio</a>
@@ -664,7 +708,9 @@
             >
           </li>
           <li>
-            <a class="mobile-menu-contact email" href="mailto:info@devstudio.com"
+            <a
+              class="mobile-menu-contact email"
+              href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
@@ -676,7 +722,7 @@
               class="social-media-link"
               rel="noopener noreferrer"
               target="_blank"
-              ><svg class="social-media-item" width="16" height="16">
+              ><svg class="social-media-item" width="24" height="24">
                 <use href="./images/icons.svg#icon-instagram"></use></svg
             ></a>
           </li>
@@ -686,7 +732,7 @@
               class="social-media-link"
               rel="noopener noreferrer"
               target="_blank"
-              ><svg class="social-media-item" width="16" height="16">
+              ><svg class="social-media-item" width="24" height="24">
                 <use href="./images/icons.svg#icon-twitter"></use></svg
             ></a>
           </li>
@@ -696,7 +742,7 @@
               class="social-media-link"
               rel="noopener noreferrer"
               target="_blank"
-              ><svg class="social-media-item" width="16" height="16">
+              ><svg class="social-media-item" width="24" height="24">
                 <use href="./images/icons.svg#icon-facebook"></use></svg
             ></a>
           </li>
@@ -706,7 +752,7 @@
               class="social-media-link"
               rel="noopener noreferrer"
               target="_blank"
-              ><svg class="social-media-item" width="16" height="16">
+              ><svg class="social-media-item" width="24" height="24">
                 <use href="./images/icons.svg#icon-linkedin"></use></svg
             ></a>
           </li>
